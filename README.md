@@ -1,26 +1,40 @@
 # Digital HMI scale with rfid tagging and sending data to thikspeak server.
 
-It consists of a nodemcu microcontroller, which takes weight measurements taking into account rfid tags to add a 
-certain quantity of a material to the inventory, the nodmcu control uses an HMI interface and also the data taken 
-is stored in a thinkspeak server (https://thingspeak.com/channels/1546302).
+Consists of a RPi running a fuzzy controller to regulate two processes one thermal and one pneumatic, both processes are controlled 
+by pwm to their respective actuators, also an HMI interface is used to enter and vary the controller parameters, graphs in real time 
+the variables and the data are saved in csv to be plotted and analyzed.
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
-1.Nodemcu V3 (1).
+1.Raspberry Pi 3B.
 ```
-Any microcontroller can be used, only the pin layout must be taken into account.
+Any microcontroller that uses Python can be used, and the pin layout must be taken into account.
 ```
-2.Load cell (1).
 
-3.HX711 Load Cell Transmitter Module(1).
+## Thermal controller
 
-4.RFID Reader module RC522(1).
+1.RTD PT100 (1).
 
-5.RFID tags (3).
+2.Thermal resistance (1).
+
+3.RTD to digital circuit (1).
+
+4.AC-DC pwm convert circuit (1).
+
+## Pneumatic controller
+
+1.MBS3000 (1).
+
+2.Compressor (1).
+
+3.I-V with ADC circuit (1).
+
+4.Pwm-DC convert circuit (1).
 
 ### Installation 🔧
 
-Save the .ino file on the nodemcu, you can see how to configure the nodemcu with the iddle of arduino here (https://github.com/esp8266/Arduino).
+Clone or save the files on your deskopt, you can take a more detailed look at the operation of the system, its circuits and 
+connections in the following article (https://publicaciones.eafit.edu.co/index.php/ingciencia/article/view/6555).
 
 ## Built with 🛠️
 
