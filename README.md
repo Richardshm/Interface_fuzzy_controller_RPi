@@ -38,16 +38,19 @@ connections in the following article (https://publicaciones.eafit.edu.co/index.p
 
 ## Built with 🛠️
 
-* [Librería Arduino List](https://github.com/luisllamasbinaburo/Arduino-List) - Arduino library that implements a dynamic array.
-* [HX711](https://github.com/bogde/HX711) - An Arduino library to interface the Avia Semiconductor HX711.
-* [MFRC522](https://github.com/miguelbalboa/rfid) - Arduino RFID Library for MFRC522.
-* [ThingSpeak](https://github.com/mathworks/thingspeak-arduino) - ThingSpeak Communication Library for Arduino, ESP8266 and ESP32.
+* [Tkinter](https://docs.python.org/es/3/library/tk.html) - Graphical user interfaces.
+* [Numpy](https://numpy.org/doc/stable/) - Fundamental package for scientific computing in Python.
+* [Matplotlib](https://matplotlib.org/stable/users/index) - Comprehensive library for creating static, animated, and interactive visualizations in Python.
+* [MCP3008](https://github.com/adafruit/Adafruit_MCP3008) - 8-Channel 10-Bit ADC.
+* [Pandas](https://pandas.pydata.org/docs/) - Fast, powerful, flexible and easy to use open source data analysis and manipulation tool.
+* [scikit-fuzzy](https://github.com/scikit-fuzzy/scikit-fuzzy) - Fuzzy Logic SciKit (Toolkit for SciPy).
 
 ## Authors ✒️
 
 * **Richard Hernández** - * All * - (https://github.com/Richardshm/)
-
+* * **Francisco Moreno** - * Director * - (https://orcid.org/0000-0002-5227-1238 )
+* * **Sergio Castro** - * Co-director * - (https://orcid.org/0000-0003-0962-9916 )
 
 ## License 📄
 
-This project is licensed under the GNU avr-gcc toolchain, GCC ARM Embedded toolchain, avr-libc, avrdude, bossac, openOCD and code from Processing and Wiring.
+This project is licensed under the GNU, GPL and the python software foundation licence(PSF).
